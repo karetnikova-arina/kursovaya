@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import {Box} from '@mui/material'
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Form from "./pages/Form";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/manufacturers" element={<Manufacturers />} />
             <Route path="/" element={<Categories />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/form" element={<Form />} />
             <Route path="/register" element={<Register />} />
         </Routes>
         <Footer/>
